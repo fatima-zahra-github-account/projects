@@ -1,0 +1,1003 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+
+}
+
+.imgDiv {
+    position: absolute;
+    z-index: -1;
+    /* display:none ; */
+}
+
+.imgDiv img {
+    width: 100%;
+    display: block;
+}
+
+.header {
+    width: 100%;
+
+}
+
+.headerTopDiv {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #212121;
+}
+
+.socialIconDiv {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    gap: 5px;
+    ;
+
+
+
+}
+
+.circleIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneIconDiv {
+    width: 542px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.phoneIconDiv p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.phoneIconDiv .callButton {
+    margin-left: 16px;
+    padding: 6px 8px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #a2d84c;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+/* bottom Div */
+.navBar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.navBar img {
+
+    margin-left: 18px;
+    width: 149px;
+}
+
+.navList {
+    height: 100%;
+    width: 867px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    /* display: none; */
+
+}
+
+.navList li {
+    list-style: none;
+
+}
+
+.navList li a {
+    font-size: 17px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: black;
+}
+
+.sliderImgDiv {
+    width: 100%;
+    height: 526px;
+
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.img-content {
+    width: 100%;
+    height: 255px;
+    position: absolute;
+    top: 163px;
+    left: 0px;
+}
+
+.img-contentTopDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv {
+    width: 347px;
+    height: 73px;
+    background-color: #a2d84c;
+}
+
+.rightDiv {
+    width: 347px;
+    height: 73px;
+    background-color: #a2d84c
+}
+
+.img-content h1 {
+    font-size: 68px;
+    color: white;
+}
+
+.img-contentBottomDiv {
+    width: 100%;
+    height: 145px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-contentBottomDiv pre {
+    font-size: 21px;
+    color: white;
+}
+
+.buttonDiv button {
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 12px 41px;
+    border: none;
+    outline: none;
+    background-color: #febd19;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.advantageDiv {
+    width: 100%;
+    height: 482px;
+    background-color: white;
+}
+
+.adv-top {
+    width: 100%;
+    height: 127px;
+    text-align: center;
+}
+
+.adv-top h1 {
+    font-size: 44px;
+    margin-top: 26px;
+    color: #a2d84c;
+}
+
+.sp1 {
+    color: black;
+}
+
+.advantageDiv pre {
+    margin-top: 8px;
+    font-size: 17px;
+    color: #cbc7c7;
+}
+
+.bottomIcons {
+    width: 100%;
+    height: 263px;
+    margin-top: 9px;
+    display: flex;
+    gap: 37px;
+    padding-left: 52px;
+    border: 2px solid transparent;
+}
+
+.iconsDiv {
+    height: 100%;
+    width: 215px;
+    text-align: center;
+
+}
+
+.roundDiv {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.iconH1 {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.iconsDiv p {
+    margin-top: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #cbc7c7;
+}
+
+/* ========  About us Div ======== */
+
+.aboutUsDiv {
+    width: 100%;
+    height: 472px;
+    background-image: url(./pics/aboutUS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutUsDiv h1 {
+    color: #a2d84c;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-top: 22px;
+}
+
+.aboutUsDiv .paraDiv {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 515px;
+    height: 233px;
+
+}
+
+.aboutUsDiv .paraDiv p {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.aboutUsDiv .buttonDiv {
+    margin-left: 84px;
+    margin-top: -3px;
+}
+
+/* ======  Services ====== */
+
+.ServicesDiv {
+    width: 100%;
+    height: 464px;
+    border: 2px solid transparent;
+    background-color: white;
+}
+
+.ServicesDiv h1 {
+    margin-top: 31px;
+    font-size: 43px;
+    font-weight: 600;
+    color: #a2d84c;
+}
+
+.ServicesDiv pre {
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #cbc7c7;
+}
+
+.servicesBottonDiv {
+    width: 100%;
+    height: 267px;
+    padding-top: 0px;
+    border: 2px solid transparent;
+    padding-left: 78px;
+    display: flex;
+    gap: 18px;
+
+}
+
+.starCardDiv {
+    margin-top: 51px;
+    width: 280px;
+    height: 212px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: #efefef;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+
+    }
+
+}
+
+.roundStarDiv {
+    position: absolute;
+    top: -44px;
+    /*  44      */
+    left: 100px;
+    height: 77px;
+    width: 77px;
+    border: 2px solid transparent;
+    background-color: #fdc100;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.starCardDiv h1 {
+    font-size: 16px;
+    margin-top: 62px;
+    font-weight: 600;
+    color: black;
+}
+
+.starCardDiv pre {
+    text-indent: 55px;
+    color: #cbc7c7;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-left: -46px;
+    margin-bottom: 20px;
+}
+
+.starCardDiv a {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #8ec63f;
+}
+
+/* ===== portfolio Div =====*/
+.portfolioDiv {
+    height: 732px;
+    width: 100%;
+    border: 2px solid transparent;
+    text-align: center;
+}
+
+.portfolioTopDiv {
+    width: 100%;
+    height: 200px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: #212121;
+}
+
+.portfolioTopDiv h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #668e19;
+    margin-top: 36px;
+}
+
+.portfolioTopDiv pre {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a4a4a4;
+    margin-top: 8px;
+}
+
+.portfolioTopDiv ul {
+    border: 2px solid transparent;
+    height: 64px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolioTopDiv ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.portfolioTopDiv ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+
+    &:hover {
+        color: #febd19;
+    }
+}
+
+.portfolioBottomDiv {
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+
+
+}
+
+.portCard {
+    width: 232px;
+    height: 232px;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.03s ease-in-out;
+
+    &:hover {
+        background-color: #ef4136;
+    }
+}
+
+.c1 {
+    background-color: white;
+}
+
+.c2 {
+    background-color: #5e5e5e;
+}
+
+.c3 {
+    background-color: #d2d3d5;
+}
+
+.c4 {
+    background-color: #838383;
+}
+
+.c5 {
+    background-color: white;
+}
+
+.c6 {
+    background-color: #969494;
+}
+
+.c7 {
+    background-color: #d2d3d5;
+}
+
+.c8 {
+    background-color: white;
+}
+
+.c9 {
+    background-color: #776e6e;
+}
+
+.c10 {
+    background-color: #5e5e5e;
+}
+
+.ourProcessDiv {
+    width: 100%;
+    height: 505px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: white;
+}
+
+.ourProcessDiv h1 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #668e19;
+    margin-top: 74px;
+}
+
+.ourProcessDiv pre {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a4a4a4;
+    margin-top: 8px;
+    margin-bottom: 34px;
+
+}
+
+.processIconsDiv {
+    width: 1151px;
+    height: 255px;
+    border: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    overflow: hidden;
+}
+
+.iconDiv {
+    width: 157px;
+    height: 100%;
+    border: 2px solid transparent;
+}
+
+.processIconsDiv .iconDiv .circleDiv {
+    margin: auto;
+    width: 142px;
+    height: 142px;
+    border: 4px solid #d1d2d4;
+    border-radius: 50%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.processIconsDiv .iconDiv .circleDiv::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    height: 4px;
+    width: 65px;
+    background-color: #d1d2d4;
+}
+
+.countRoundDiv {
+    position: absolute;
+    top: -17px;
+    margin: auto;
+    height: 35px;
+    width: 35px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #febd19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.iconDiv h1 {
+    font-size: 16px;
+    margin-top: 23px;
+    font-weight: 600;
+    color: #484646;
+}
+
+.iconDiv pre {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.aboutDiv {
+    width: 100%;
+    height: 537px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.aboutDiv h1 {
+    font-size: 43px;
+    font-weight: 600;
+    color: #668e19;
+    margin-top: 35px;
+}
+
+.aboutDiv pre {
+    font-size: 16px;
+    font-weight: 600;
+    color: #a4a4a4;
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+
+.peopleReviwesDiv {
+    border: 2px solid transparent;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.peopleReviwesDiv .review {
+    width: 584px;
+    height: 144px;
+    border: 2px solid transparent;
+    display: flex;
+}
+
+.peopleReviwesDiv .review .profileDiv {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.profileDiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.reviewRightDiv {
+    height: 100%;
+    width: 400px;
+    margin-left: 20px;
+    border: 2px solid transparent;
+    text-align: left;
+}
+
+.reviewRightDiv pre {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+.reviewRightDiv h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+.skillsDiv {
+    width: 100%;
+    height: 488px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: white;
+}
+
+.skillsDiv h1 {
+    margin-top: 18px;
+    font-size: 43px;
+    font-weight: 600;
+    color: #668e19;
+    margin-top: 42px;
+}
+
+.skillsDiv pre {
+    font-size: 14px;
+    font-weight: 600;
+    color: #a4a4a4;
+    margin-top: 8px;
+    margin-bottom: 34px;
+}
+
+.circleProgessDiv {
+    width: 972px;
+    height: 250px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin: auto;
+    margin-top: 44px;
+    display: flex;
+    gap: 64px;
+}
+
+.borderCircle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.topBorderCircle {
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.innerBordeCircle {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.progressCard {
+    width: 190px;
+    height: 100%;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.progressCard h1 {
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+.contactDiv {
+    width: 100%;
+    height: 342px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: #8ec63f;
+}
+
+.contactDiv h1 {
+    font-size: 62px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: white;
+}
+
+.contactinputDiv {
+    width: 1023px;
+    height: 64px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+}
+
+.contactinputDiv input {
+    width: 246px;
+    height: 51px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 12px;
+    font-size: 22px;
+}
+
+.contactDiv button {
+    width: 208px;
+    height: 51px;
+    background-color: #febd19;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.contactDiv pre {
+    margin-top: 24px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.contactUseDiv {
+    width: 100%;
+    height: 645px;
+    border: 2px solid transparent;
+    text-align: center;
+    background-color: white;
+}
+
+.contactUseDiv h1 {
+    margin-top: 40px;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.contactUseDiv pre {
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #bdbec1;
+    padding-bottom: 24px;
+}
+
+.mapH1 {
+    width: 970px;
+    height: 35px;
+    border: 2px solid transparent;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mapIconDiv {
+    width: 40px;
+    height: 40px;
+    border: 2px solid transparent;
+}
+
+.mapH1 p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mapPhoneDiv {
+    width: 818px;
+    height: 50px;
+    border: 2px solid transparent;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.mapPhoneDiv p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.googleMap {
+    width: 100%;
+    height: 378px;
+    border: 2px solid transparent;
+    margin-top: 23px;
+}
+
+.googleMap iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 366px;
+    border: 2px solid transparent;
+    padding-top: 53px;
+    display: flex;
+    background-color: #668e19;
+}
+
+.footerFirstDiv {
+    width: 242px;
+    height: 254px;
+    border: 2px solid transparent;
+    margin-left: 85px;
+    margin-right: 114px;
+}
+
+.footerFirstDiv img {
+    width: 154px;
+    margin-top: -39px;
+    margin-left: 4px;
+}
+
+.footerFirstDiv p {
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    line-height: 16px;
+}
+
+.footerFirstDiv .copRight {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footerFirstDiv .copyRight {
+    margin-top: 69px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.footerSectDiv {
+    width: 212px;
+    height: 251px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    font-size: 15px;
+    border-right: 2px solid #a2d84c;
+}
+
+.footerSectDiv h1 {
+    margin-top: -2px;
+    font-size: 26px;
+    color: white;
+}
+
+.footerSectDiv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerSectDiv ul li {
+    list-style: none;
+    margin-left: 2px;
+    display: inline;
+}
+
+.footerSectDiv ul li a {
+    color: white;
+}
+
+.footerSectDiv p {
+    color: white;
+
+}
+
+.footerContDiv {
+    width: 212px;
+    height: 251px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid #a2d84c ;
+}
+
+.footerContDiv h1 {
+    font-size: 26px;
+    margin-left: 25px;
+}
